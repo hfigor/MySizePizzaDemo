@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C30DCC41E18136E00048EC6 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3C30DCC31E18136E00048EC6 /* README.txt */; };
 		3CF347C61E0366180028D855 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF347C51E0366180028D855 /* AppDelegate.swift */; };
 		3CF347C81E0366180028D855 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF347C71E0366180028D855 /* ViewController.swift */; };
 		3CF347CB1E0366180028D855 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CF347C91E0366180028D855 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C30DCC31E18136E00048EC6 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = SOURCE_ROOT; };
 		3CF347C21E0366180028D855 /* MySizePizzaDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySizePizzaDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CF347C51E0366180028D855 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CF347C71E0366180028D855 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 		3CF347C41E0366180028D855 /* MySizePizzaDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3C30DCC31E18136E00048EC6 /* README.txt */,
 				3CF347C51E0366180028D855 /* AppDelegate.swift */,
 				3CF347C71E0366180028D855 /* ViewController.swift */,
 				3CF347C91E0366180028D855 /* Main.storyboard */,
@@ -234,6 +237,7 @@
 			files = (
 				3CF347D01E0366180028D855 /* LaunchScreen.storyboard in Resources */,
 				3CF347CD1E0366180028D855 /* Assets.xcassets in Resources */,
+				3C30DCC41E18136E00048EC6 /* README.txt in Resources */,
 				3CF347CB1E0366180028D855 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +509,7 @@
 				3CF347EC1E0366180028D855 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3CF347ED1E0366180028D855 /* Build configuration list for PBXNativeTarget "MySizePizzaDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				3CF347EF1E0366180028D855 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3CF347F01E0366180028D855 /* Build configuration list for PBXNativeTarget "MySizePizzaDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				3CF347F21E0366180028D855 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
